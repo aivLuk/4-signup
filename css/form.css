@@ -43,3 +43,27 @@ form {
             line-height: 30px;
             text-decoration: none;
         }
+
+    @media (max-width: 850px) {
+    form > .form-row > span {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+}
+
+@media (max-width: 360px) {
+    form > .form-row > label {
+        font-size: 12px;
+    }
+    form > .form-row > input {
+        font-size: 15px;
+    }
+    form > .form-row > span {
+        font-size: 15px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    form > .form-row > a {
+        font-size: 15px;
+    }
+}
